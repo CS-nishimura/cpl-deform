@@ -1,0 +1,33 @@
+# generic backup files.
+*~
+*#*
+
+# private working dir.
+obsoletes/
+
+# specific files
+*.log
+cmaplexer.ml
+cmapparser.ml
+cmapparser.mli
+depend
+
+# ocaml standard outputs
+*.annot
+*.cm*
+*.a
+*.o
+
+# .exe file
+*.exe
+
+# ocamlbuild working directory
+_build/
+
+# ocamlbuild targets
+*.byte
+*.native
+
+# oasis generated files
+setup.data
+setup.log

@@ -1,0 +1,43 @@
+/* the trivial identity task for 5 processes */
+
+Colors:
+	B W R G M
+Cmap:
+	B 0, W 1, R 2, G 3, M 4	=>	$
+  B 0, W 1, R 2, G 3 =>	$
+	B 0, W 1, R 2, M 4 =>	$
+	B 0, W 1, G 3, M 4 =>	$
+	B 0, R 2, G 3, M 4 =>	$
+	W 1, R 2, G 3, M 4 =>	$
+	B 0, W 1, R 2, M 4 =>	$
+	B 0, W 1, G 3, M 4 =>	$
+	B 0, R 2, G 3, M 4 =>	$
+	B 0, W 1, R 2 =>	$
+	B 0, W 1, G 3 =>	$
+	B 0, R 2, G 3 =>	$
+	W 1, R 2, G 3 =>	$
+	B 0, W 1, R 2 =>	$
+	B 0, W 1, G 3 =>	$
+	B 0, R 2, G 3 =>	$
+	W 1, R 2, G 3 =>	$
+	B 0, W 1, M 4	=>	$
+	B 0, R 2, M 4	=>	$
+	W 1, R 2, M 4	=>	$
+	B 0, G 3, M 4	=>	$
+	W 1, G 3, M 4	=>	$
+	R 2, G 3, M 4	=>	$
+	B 0, W 1		=>	$
+	B 0, R 2		=>	$
+	W 1, R 2		=>	$
+	B 0, G 3		=>	$
+	W 1, G 3		=>	$
+	R 2, G 3		=>	$
+	B 0, M 4		=>	$
+	W 1, M 4		=>	$
+	R 2, M 4		=>	$
+	G 3, M 4		=>	$
+	B 0    			=>	$
+	W 1    			=>	$
+	R 2    			=>	$
+	G 3    			=>	$
+	M 4    			=>	$

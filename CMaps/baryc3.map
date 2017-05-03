@@ -1,0 +1,18 @@
+/* barycenteric consensus (auto generated) for n=3 */
+Colors: B  R  W
+Cmap:
+    B 0, R 1, W 2 -> { B 7, R 7, W 7 | W 4, B 7, R 7 | R 2, B 7, W 7
+              | R 6, W 6, B 7 | W 4, R 6, B 7 | R 2, W 6, B 7 | B 1, R 7, W 7
+              | B 5, W 5, R 7 | W 4, B 5, R 7 | B 1, W 5, R 7 | B 3, R 3, W 7
+              | R 2, B 3, W 7
+              | B 1, R 3, W 7 }
+    B 0, R 1 -> { B 3, R 3 | R 2, B 3
+              | B 1, R 3 }
+    B 0, W 2 -> { B 5, W 5 | W 4, B 5
+              | B 1, W 5 }
+    B 0 -> { B 1 }
+    R 1, W 2 -> { R 6, W 6 | W 4, R 6
+              | R 2, W 6 }
+    R 1 -> { R 2 }
+    W 2 -> { W 4 }
+    

@@ -1,0 +1,8 @@
+/* barycenteric consensus (auto generated) for n=2 */
+Colors: B  R
+Cmap:
+    B 0, R 1 -> { B 3, R 3 | R 2, B 3
+              | B 1, R 3 }
+    B 0 -> { B 1 }
+    R 1 -> { R 2 }
+    
